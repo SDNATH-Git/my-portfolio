@@ -59,14 +59,14 @@ const Navbar = () => {
                 {/* Logo */}
                 <a
                     href="#home"
-                    className="flex-shrink-0 cursor-pointer"
+                    className="flex-shrink-0 cursor-pointer  "
                     onClick={() => {
                         scroll.scrollToTop();
                         setActiveSection("home");
                         setIsOpen(false);
                     }}
                 >
-                    <img className="w-10 h-10" src={logo} alt="Logo" />
+                    <img className="w-10 h-10 " src={logo} alt="Logo" />
                 </a>
 
                 {/* Desktop menu */}
@@ -79,8 +79,8 @@ const Navbar = () => {
                                 offset={-80}
                                 duration={500}
                                 className={`cursor-pointer flex items-center gap-2 px-3 py-1 rounded-md transition-colors ${activeSection === item.link
-                                    ? "bg-orange-300 text-gray-900"
-                                    : "hover:bg-orange-400 hover:text-white"
+                                    ? "bg-orange-600 text-white"
+                                    : "hover:bg-orange-600 hover:text-white"
                                     }`}
                                 onClick={() => setIsOpen(false)}
                                 spy={false} // We handle active state manually
@@ -100,8 +100,8 @@ const Navbar = () => {
                         offset={-80}
                         duration={500}
                         className={`cursor-pointer px-4 py-2 rounded-md font-semibold transition-colors ${activeSection === "contacts"
-                            ? "bg-orange-300 text-gray-900"
-                            : "bg-orange-500 text-white hover:bg-orange-600"
+                            ? "bg-orange-600 text-white"
+                            : "border-2 border-orange-600  text-white hover:bg-orange-600"
                             }`}
                         onClick={() => {
                             setActiveSection("contacts");
@@ -133,8 +133,8 @@ const Navbar = () => {
                                 offset={-80}
                                 duration={500}
                                 className={`flex items-center gap-2 cursor-pointer px-3 py-2 rounded-md transition-colors ${activeSection === item.link
-                                    ? "bg-orange-300 text-gray-900"
-                                    : "hover:bg-orange-400 hover:text-white"
+                                    ? "bg-orange-600 text-white"
+                                    : "hover:bg-orange-600 hover:text-white"
                                     }`}
                                 onClick={() => setIsOpen(false)}
                                 spy={false}
@@ -151,8 +151,8 @@ const Navbar = () => {
                             offset={-80}
                             duration={500}
                             className={`flex items-center gap-2 cursor-pointer px-3 py-2 rounded-md transition-colors ${activeSection === "contacts"
-                                ? "bg-orange-300 text-gray-900"
-                                : "bg-orange-500 text-white hover:bg-orange-600"
+                                ? "bg-orange-600 text-white"
+                                : "border-2 border-orange-600  text-white hover:bg-orange-600"
                                 }`}
                             onClick={() => setIsOpen(false)}
                             spy={false}

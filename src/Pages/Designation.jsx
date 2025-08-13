@@ -96,9 +96,7 @@ const Designation = () => {
                     variants={textVariant}
                     className="text-gray-400 mb-8 leading-relaxed text-sm md:text-base"
                 >
-                    I specialize in building full-stack web applications using MongoDB,
-                    Express.js, React, and Node.js. Focused on creating efficient,
-                    scalable solutions with clean code architecture.
+                    I specialize in building robust full-stack web applications using React.js, MongoDB, Express.js, and Node.js, with secure authentication powered by Firebase. I focus on crafting efficient, scalable, and user-centric solutions with clean, maintainable code architecture.
                 </motion.p>
 
                 {/* Social Icons */}
