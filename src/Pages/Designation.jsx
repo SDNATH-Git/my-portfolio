@@ -1,116 +1,10 @@
-// import React from "react";
-// import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-// import { motion } from "framer-motion";
-// import photoUrl from "../assets/shuvo.png";
-// import resumeDownloadLink from "../assets/Resume.pdf";
-// import resumePreviewLink from "../assets/Resume.pdf";
-
-// const Designation = () => {
-//     return (
-//         <section className=" text-white flex flex-col-reverse lg:flex-row items-center justify-between min-h-screen px-5 md:px-5 lg:px-10 py-30 gap-10 lg:gap-20">
-
-//             {/* Left Side - Content */}
-//             <motion.div
-//                 className="flex-1 "
-//                 initial={{ opacity: 0, x: -50 }}
-//                 animate={{ opacity: 1, x: 0 }}
-//                 transition={{ duration: 0.8 }}
-//             >
-//                 <p className="text-2xl font-bold mb-2">Hello I'm</p>
-
-//                 <h1 className="text-4xl md:text-5xl font-extrabold mb-2 text-orange-500">
-//                     SD NATH
-//                 </h1>
-
-//                 <h2 className="text-xl md:text-2xl font-semibold mb-6 text-gray-300">
-//                     MERN Stack Developer
-//                 </h2>
-
-//                 <p className="text-gray-400 mb-8 leading-relaxed text-sm md:text-base">
-//                     I specialize in building full-stack web applications using MongoDB,
-//                     Express.js, React, and Node.js. Focused on creating efficient,
-//                     scalable solutions with clean code architecture.
-//                 </p>
-
-//                 {/* Social Icons */}
-//                 <div className="flex space-x-6 mb-8 text-white text-2xl">
-//                     <a
-//                         href="https://github.com/SDNATH-Git"
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                         className="hover:text-orange-500 transition-colors duration-300"
-//                     >
-//                         <FaGithub />
-//                     </a>
-//                     <a
-//                         href="https://www.linkedin.com/in/sd-nath/"
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                         className="hover:text-blue-600 transition-colors duration-300"
-//                     >
-//                         <FaLinkedin />
-//                     </a>
-//                     <a
-//                         href="https://www.facebook.com/sd.nath.9400/"
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                         className="hover:text-blue-700 transition-colors duration-300"
-//                     >
-//                         <FaFacebook />
-//                     </a>
-//                 </div>
-
-//                 {/* Buttons */}
-//                 <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-//                     <a
-//                         href={resumeDownloadLink}
-//                         download
-//                         className="bg-orange-500 hover:bg-orange-600 text-white px-3 py-3 rounded-md font-medium flex items-center justify-center gap-2 transition-colors duration-300"
-//                     >
-//                         Download Resume <span>📥</span>
-//                     </a>
-//                     <a
-//                         href={resumePreviewLink}
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                         className="border-2 border-gray-600 hover:border-orange-500 text-white px-5 py-3 rounded-md font-medium flex items-center justify-center gap-2 transition-colors duration-300"
-//                     >
-//                         Preview Resume <span>👁️</span>
-//                     </a>
-//                 </div>
-//             </motion.div>
-
-
-//             {/* Right Side - Photo */}
-//             <motion.div
-//                 className="flex-1 flex justify-center"
-//                 initial={{ opacity: 0, x: 50 }}
-//                 animate={{ opacity: 1, x: 0 }}
-//                 transition={{ duration: 0.8, delay: 0.3 }}
-//             >
-//                 <img
-//                     src={photoUrl}
-//                     alt="SD NATH"
-//                     className="w-60 h-60 md:w-[600px] md:h-[600px] lg:w-96 lg:h-96 rounded-full border-3 shadow-2xl shadow-orange-500 border-orange-500 object-cover transition-all duration-300 hover:border-yellow-400"
-//                 />
-//             </motion.div>
-
-
-
-
-//         </section>
-//     );
-// };
-
-// export default Designation;
-
-
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
 import photoUrl from "../assets/shuvo.png";
 import resumeDownloadLink from "../assets/Resume.pdf";
 import resumePreviewLink from "../assets/Resume.pdf";
+import { Typewriter } from 'react-simple-typewriter';
 
 const textContainer = {
     hidden: { opacity: 0 },
@@ -181,7 +75,21 @@ const Designation = () => {
                     variants={textVariant}
                     className="text-xl md:text-2xl font-semibold mb-6 text-gray-300"
                 >
-                    MERN Stack Developer
+                    MERN Stack
+
+
+                    <span className="text-gray-200 text-xl md:text-2xl font-semibold ml-2">
+                        <Typewriter
+                            words={['Developer']}
+                            loop={0}
+                            cursor
+                            cursorStyle="_"
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1500}
+                        />
+                    </span>
+
                 </motion.h2>
 
                 <motion.p
