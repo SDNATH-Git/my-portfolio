@@ -2,8 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
 import photoUrl from "../assets/shuvo.png";
-import resumeDownloadLink from "../assets/Resume.pdf";
-import resumePreviewLink from "../assets/Resume.pdf";
+import resumeDownloadLink from "../assets/Shuvo_Dev_Nath_Resume.pdf";
+import resumePreviewLink from "../assets/Shuvo_Dev_Nath_Resume.pdf";
 import { Typewriter } from 'react-simple-typewriter';
 
 const textContainer = {
