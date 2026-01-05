@@ -9,7 +9,8 @@ const About = () => {
     return (
         <div
             id="about"
-            className="text-white bg-gradient-to-r from-gray-900 to-gray-800 mx-5 md:mx-5 lg:mx-10 p-6 md:p-12 rounded-3xl shadow-2xl my-16"
+            className="text-white bg-gradient-to-r from-gray-900 to-gray-800 mx-5 md:mx-5 lg:mx-10 p-6 md:p-12 rounded-3xl shadow-2xl my-16  hover:border-l-4 hover:border-r-4 hover:border-orange-500
+             transition-all duration-300  "
         >
             <h2 className="text-4xl text-center font-extrabold mb-8 text-orange-500 flex justify-center gap-2 pb-2">
                 <FaUserTag />
@@ -42,13 +43,13 @@ const About = () => {
                         transitionTime={800}
                     >
                         <div>
-                            <img src="https://i.ibb.co.com/s9dv9ZLj/shuvo.png" alt="Shuvo 1" />
+                            <img src="https://i.ibb.co.com/5WbmQS6B/img1.png" alt="Shuvo 1" className="h-100" />
                         </div>
                         <div>
-                            <img src="https://i.ibb.co.com/fGG7L72k/shuvo3.png" alt="Shuvo 2" />
+                            <img src="https://i.ibb.co.com/fGG7L72k/shuvo3.png" alt="Shuvo 2" className="h-100" />
                         </div>
                         <div>
-                            <img src="https://i.ibb.co.com/Cp3wff9C/shuvo-2.png" alt="Shuvo 3" />
+                            <img src="https://i.ibb.co.com/Cp3wff9C/shuvo-2.png" alt="Shuvo 3" className="h-100" />
                         </div>
                     </Carousel>
                 </motion.div>

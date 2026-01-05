@@ -28,7 +28,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contacts" className="bg-gradient-to-r from-gray-900 to-gray-800 mx-5 lg:mx-10 py-12 px-6 rounded-2xl">
+        <section id="contacts" className="bg-gradient-to-r from-gray-900 to-gray-800 mx-5 lg:mx-10 py-8 px-6 rounded-2xl border-t-6 border-orange-500 hover:shadow-xl shadow-orange-500/60 ">
             <h2 className="text-2xl lg:text-4xl py-6 mb-3 text-center text-orange-500 font-bold  items-center gap-3">
                 📞 Contact Me
             </h2>
