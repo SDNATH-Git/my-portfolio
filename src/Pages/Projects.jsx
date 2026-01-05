@@ -40,14 +40,14 @@ const projects = [
         githubLink: "https://github.com/SDNATH-Git/blood-donation-clientset",
     },
     {
-        id: "edulearn",
-        name: "🩺 MedicalAppointment Application",
+        id: "jhotpot",
+        name: "🚚 Jhotpot – Parcel Management & Delivery System",
         images: [p3_1, p3_2, p3_3, p3_4, p3_5],
         description:
-            "What about getting a doctor appointment app with ease and convenience? Mobile devices are now utilized for more than just making calls and sending texts. Consumers use smartphones for various tasks, including reading books, shopping online, finding jobs, and even finding dates. Many people only use their smartphones to connect to the web. ",
-        tech: ["React", "Express.js", "MongoDB", "Stripe", "JWT Auth"],
-        liveLink: "https://cool-lollipop-ad7e95.netlify.app/",
-        githubLink: "https://github.com/SDNATH-Git/medical-appointment-application?tab=readme-ov-file",
+            "Jhotpot is a full-stack B2C parcel management and delivery platform designed to streamline parcel booking, tracking, rider management, and delivery operations through a modern, role-based dashboard system. ",
+        tech: ["React", "Express.js", "Node.js", "MongoDB", "Stripe", "JWT Auth"],
+        liveLink: "https://jhotpot-client-set.web.app/",
+        githubLink: "https://github.com/SDNATH-Git/jhotpot_full_client_set_25",
     },
     {
         id: "foodiehub",
