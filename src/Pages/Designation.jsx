@@ -47,7 +47,7 @@ const buttonHover = {
 /* ---------------- Component ---------------- */
 const Designation = () => {
     return (
-        <section className="text-white flex flex-col-reverse lg:flex-row items-center justify-between px-5 md:px-5 lg:px-10 py-28 gap-16 ">
+        <section className="text-white flex flex-col-reverse lg:flex-row items-center justify-between px-5 md:px-5 lg:px-10 py-28 gap-16 overflow-hidden ">
 
             {/* ========== LEFT CONTENT ========== */}
             <motion.div
@@ -177,9 +177,9 @@ const Designation = () => {
                     <div className="absolute left-0 top-1/2 -translate-y-1/2 text-green-500 text-2xl"><FaNodeJs /></div>
 
                     <div className="absolute top-[12%] right-[18%] text-white text-xl"><SiNextdotjs /></div>
-                    <div className="absolute bottom-[12%] right-[18%] text-blue-400 text-xl"><SiMysql /></div>
+                    <div className="absolute bottom-[12%] right-[18%] text-blue-400 text-3xl"><SiMysql /></div>
                     <div className="absolute top-[12%] left-[18%] text-gray-300 text-xl"><SiExpress /></div>
-                    <div className="absolute bottom-[12%] left-[18%] text-green-400 text-xl"><SiMongodb /></div>
+                    <div className="absolute bottom-[12%] left-[18%] text-green-400 text-2xl"><SiMongodb /></div>
                 </motion.div>
 
                 {/* Profile Image */}
