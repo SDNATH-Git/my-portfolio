@@ -22,7 +22,7 @@ export default function ProjectDetails() {
   return (
     <div className="pt-25 lg:pt-40">
 
-      <div className="mx-5 lg:mx-30 p-4 lg:p-8 bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl shadow-lg border-2 border-orange-500 ">
+      <div className="mx-5 lg:mx-30 p-4 lg:p-8 bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl shadow-lg  border-t-6 border-orange-500 ">
         <h1 className="text-xl md:text-3xl lg:text-4xl font-extrabold mb-6 text-orange-500 tracking-wide drop-shadow-md">
           {project.title}
         </h1>
