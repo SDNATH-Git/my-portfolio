@@ -9,7 +9,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-gray-300 py-6 mt-16">
+        <footer className="bg-gray-900 text-gray-300 py-6 mt-16 rounded-t-2xl border-t-1  border-white">
             <div className="px-6   text-center">
 
                 {/* Logo */}
@@ -50,7 +50,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <h1 className="py-2">MERN Stack Developer</h1>
-                <hr />
+                <hr className="text-orange-500" />
                 <p className="mb-4 md:mb-0">&copy; {new Date().getFullYear()} sd nath. All rights reserved.</p>
 
 

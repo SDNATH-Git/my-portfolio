@@ -49,6 +49,9 @@ const About = () => {
                             <img src="https://i.ibb.co.com/fGG7L72k/shuvo3.png" alt="Shuvo 2" className="h-100" />
                         </div>
                         <div>
+                            <img src="https://i.ibb.co.com/wZHdH15B/sd.jpg" alt="Shuvo 2" className="h-100" />
+                        </div>
+                        <div>
                             <img src="https://i.ibb.co.com/Cp3wff9C/shuvo-2.png" alt="Shuvo 3" className="h-100" />
                         </div>
                     </Carousel>
