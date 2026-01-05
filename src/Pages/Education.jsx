@@ -56,10 +56,10 @@ const Education = () => {
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.3 }}
                         variants={cardVariants}
-                        className={`bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col md:flex-row items-center gap-6 p-8 border-l-6 border-orange-500 border border-orange-500 ${edu.logoPosition === "right"
-                            ? "md:flex-row"
-                            : "md:flex-row-reverse"
-                            }`}
+                        className={`bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl flex flex-col md:flex-row items-center gap-6 p-8 border-l-6 border-r-6 border-orange-500 shadow-orange-500 
+                        ${edu.logoPosition === "right" ? "md:flex-row" : "md:flex-row-reverse"}
+                        transform transition-transform duration-300 hover:scale-105 hover:shadow-xl`}
+
                     >
                         {/* Logo */}
                         <div className="flex-shrink-0 rounded-full overflow-hidden w-32 h-32 lg:w-44 lg:h-44 border-2 border-orange-500 shadow-2xl">
