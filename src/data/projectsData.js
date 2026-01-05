@@ -98,7 +98,7 @@ export const projectsData = [
     images: [p2_1, p2_2, p2_3, p2_4, p2_5],
     liveLink: "https://food-sharing-1821c.web.app/",
     githubClient: "https://github.com/SDNATH-Git/food-sharing-clientset",
-    githubServer: "https://github.com/SDNATH-Git/food-sharing-clientset",
+    githubServer: "https://github.com/SDNATH-Git/food-sharing-serverset",
     challenges: [
       "Implementing real-time synchronization of donor and recipient data across multiple clients.",
       "Designing an intuitive and accessible UI that caters to diverse user groups.",
@@ -118,6 +118,58 @@ export const projectsData = [
   {
     // id: "edulearn",
     id: "jhotpot",
+    title: "🚚 Jhotpot–Parcel Management & Delivery System",
+    description:
+      "Jhotpot is a full-stack B2C parcel management and delivery platform designed to streamline parcel booking, tracking, rider management, and delivery operations through a modern, role-based dashboard system.The system is built with scalability, performance, and real-world logistics workflows in mind, making it suitable for courier services and delivery-based businesses.",
+    features: [
+      "User registration and role-based access control",
+      "Search doctors by specialty and location",
+      "Book, update, and cancel appointments",
+      "Stripe payment integration for appointments",
+      "Appointment reminders and notifications",
+      "Admin dashboard for managing doctors and appointments",
+    ],
+    responsibilities: [
+      "Developed frontend components using React and TailwindCSS",
+      "Implemented backend with Node.js, Express, and MongoDB",
+      "Integrated Stripe for secure payments",
+      "Handled authentication and authorization using JWT",
+      "Optimized performance and SEO",
+    ],
+    techStack: [
+      "React 18",
+      "TailwindCSS 3",
+      "Node.js 18",
+      "Express 4",
+      "MongoDB Atlas",
+      "Stripe API",
+      "JWT Authentication",
+      "React Router 6",
+    ],
+    images: [p3_1, p3_2, p3_3, p3_4, p3_5],
+    liveLink: "https://jhotpot-client-set.web.app/",
+    githubClient:
+      "https://github.com/SDNATH-Git/jhotpot_full_client_set_25",
+    githubServer:
+      "https://github.com/SDNATH-Git/jhotpot_full_server_set_25",
+    challenges: [
+      "Implementing secure and reliable Stripe payment integration for parcel fees.",
+      "Handling concurrent parcel bookings .",
+      "Developing a scalable notification system for parcel Booking reminders.",
+      "Monitor delivery status & system analytics",
+      "Optimizing the app for SEO and fast loading on mobile networks.",
+    ],
+    improvements: [
+      "Secure online payments for parcel bookings",
+      "Secure private routes for protected pages",
+      "Role-based access for Admin, Rider, and Customer",
+      "User can track parcel and view payment history",
+    ],
+    demoVideo: "https://youtu.be/your-demo-video-url",
+    launchDate: "2023-09-05",
+  },
+  {
+    id: "RideSharing",
     title: "🚚 Jhotpot–Parcel Management & Delivery System",
     description:
       "Jhotpot is a full-stack B2C parcel management and delivery platform designed to streamline parcel booking, tracking, rider management, and delivery operations through a modern, role-based dashboard system.The system is built with scalability, performance, and real-world logistics workflows in mind, making it suitable for courier services and delivery-based businesses.",

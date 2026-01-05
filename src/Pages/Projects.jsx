@@ -28,6 +28,13 @@ import p3_3 from "../assets/project3-3.png";
 import p3_4 from "../assets/project3-4.png";
 import p3_5 from "../assets/project3-5.png";
 
+// ✅ Jhotpot – Parcel Management Project Images
+import p4_1 from "../assets/project4-1.png";
+import p4_2 from "../assets/project4-2.png";
+import p4_3 from "../assets/project4-3.png";
+import p4_4 from "../assets/project4-4.png";
+import p4_5 from "../assets/project4-5.png";
+
 const projects = [
     {
         id: "easyhome",
@@ -60,9 +67,9 @@ const projects = [
         githubLink: "https://github.com/SDNATH-Git/food-sharing-clientset",
     },
     {
-        id: "edulearn",
-        name: "🩺 MedicalAppointment Application",
-        images: [p3_1, p3_2, p3_3, p3_4, p3_5],
+        id: "RideSharing",
+        name: "🚖 Cholo — Real-Time Ride Sharing Website",
+        images: [p4_1, p4_2, p4_3, p4_4, p4_5],
         description:
             "What about getting a doctor appointment app with ease and convenience? Mobile devices are now utilized for more than just making calls and sending texts. Consumers use smartphones for various tasks, including reading books, shopping online, finding jobs, and even finding dates. Many people only use their smartphones to connect to the web. ",
         tech: ["React", "Express.js", "MongoDB", "Stripe", "JWT Auth"],
