@@ -37,6 +37,16 @@ import p4_5 from "../assets/project4-5.png";
 
 const projects = [
     {
+        id: "RideSharing",
+        name: "🚖 Cholo - Ride Sharing (Team-projects)",
+        images: [p4_1, p4_2, p4_3, p4_4, p4_5],
+        description:
+            "Cholo is a modern, real-time ride-sharing platform built with React, Node.js, and Socket.io. It enables live rider tracking, online/offline status, and interactive map-based pickup selection. ",
+        tech: ["Typescript", "Express.js", "Node.js", "MongoDB", "Firebase", "Stripe", "JWT Auth"],
+        liveLink: "https://cholo.netlify.app/",
+        githubLink: "https://github.com/Utso-Roy/cholo_ride_sharing_-team-/tree/SD?tab=readme-ov-file",
+    },
+    {
         id: "easyhome",
         name: "🩸 BloodCare - Blood Donation Platform",
         images: [p1_1, p1_2, p1_3, p1_4, p1_5],
@@ -66,16 +76,7 @@ const projects = [
         liveLink: "https://food-sharing-1821c.web.app/",
         githubLink: "https://github.com/SDNATH-Git/food-sharing-clientset",
     },
-    {
-        id: "RideSharing",
-        name: "🚖 Cholo — Real-Time Ride Sharing Website",
-        images: [p4_1, p4_2, p4_3, p4_4, p4_5],
-        description:
-            "What about getting a doctor appointment app with ease and convenience? Mobile devices are now utilized for more than just making calls and sending texts. Consumers use smartphones for various tasks, including reading books, shopping online, finding jobs, and even finding dates. Many people only use their smartphones to connect to the web. ",
-        tech: ["React", "Express.js", "MongoDB", "Stripe", "JWT Auth"],
-        liveLink: "https://cool-lollipop-ad7e95.netlify.app/",
-        githubLink: "https://github.com/SDNATH-Git/medical-appointment-application?tab=readme-ov-file",
-    },
+
 ];
 
 export default function Projects() {
