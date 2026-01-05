@@ -56,8 +56,8 @@ const projects = [
         description:
             "Food Sharing is a full-stack web application that helps reduce food waste by connecting donors with people in need. Donors can list surplus food items and recipients can request them. The app includes user roles, a dynamic dashboard, search & filter features, and a responsive UI.",
         tech: ["React", "TailwindCSS", "Firebase", "Node.js", "Express.js", "MongoDB"],
-        liveLink: "https://example.com",
-        githubLink: "https://github.com/example",
+        liveLink: "https://food-sharing-1821c.web.app/",
+        githubLink: "https://github.com/SDNATH-Git/food-sharing-clientset",
     },
     {
         id: "edulearn",
