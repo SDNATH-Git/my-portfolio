@@ -116,7 +116,8 @@ export const projectsData = [
     launchDate: "2023-08-10",
   },
   {
-    id: "edulearn",
+    // id: "edulearn",
+    id: "jhotpot",
     title: "🩺 MedicalAppointment Application",
     description:
       "MedicalAppointment is an intuitive doctor appointment booking system designed for both patients and healthcare providers. Patients can search for doctors by specialty and location, book, update, or cancel appointments easily. The app integrates secure payment processing via Stripe and provides appointment reminders and notifications. The system supports role-based access control, with admins managing doctors and appointments through a dedicated dashboard. It is optimized for performance and accessibility on all devices.",

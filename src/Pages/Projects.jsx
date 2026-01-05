@@ -21,7 +21,7 @@ import p2_3 from "../assets/project2-3.png";
 import p2_4 from "../assets/project2-4.png";
 import p2_5 from "../assets/project2-5.png";
 
-// ✅ Medical Appointment Project Images
+// ✅ Jhotpot – Parcel Management Project Images
 import p3_1 from "../assets/project3-1.png";
 import p3_2 from "../assets/project3-2.png";
 import p3_3 from "../assets/project3-3.png";
@@ -38,6 +38,16 @@ const projects = [
         tech: ["React", "Firebase Auth", "MongoDB", "Express.js", "+7"],
         liveLink: "https://blood-donation-e5b2a.web.app/",
         githubLink: "https://github.com/SDNATH-Git/blood-donation-clientset",
+    },
+    {
+        id: "edulearn",
+        name: "🩺 MedicalAppointment Application",
+        images: [p3_1, p3_2, p3_3, p3_4, p3_5],
+        description:
+            "What about getting a doctor appointment app with ease and convenience? Mobile devices are now utilized for more than just making calls and sending texts. Consumers use smartphones for various tasks, including reading books, shopping online, finding jobs, and even finding dates. Many people only use their smartphones to connect to the web. ",
+        tech: ["React", "Express.js", "MongoDB", "Stripe", "JWT Auth"],
+        liveLink: "https://cool-lollipop-ad7e95.netlify.app/",
+        githubLink: "https://github.com/SDNATH-Git/medical-appointment-application?tab=readme-ov-file",
     },
     {
         id: "foodiehub",
