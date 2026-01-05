@@ -383,7 +383,7 @@ const Designation = () => {
 
             {/* ========== RIGHT IMAGE + ORBIT ========== */}
             <motion.div
-                className="relative flex justify-center items-center lg:mr-10 md:mr-0"
+                className="relative flex justify-center items-center lg:mr-0 md:mr-0"
                 initial={{ opacity: 0, scale: 0.85 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
