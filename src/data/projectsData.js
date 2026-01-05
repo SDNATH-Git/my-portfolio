@@ -118,9 +118,9 @@ export const projectsData = [
   {
     // id: "edulearn",
     id: "jhotpot",
-    title: "🩺 MedicalAppointment Application",
+    title: "🚚 Jhotpot–Parcel Management & Delivery System",
     description:
-      "MedicalAppointment is an intuitive doctor appointment booking system designed for both patients and healthcare providers. Patients can search for doctors by specialty and location, book, update, or cancel appointments easily. The app integrates secure payment processing via Stripe and provides appointment reminders and notifications. The system supports role-based access control, with admins managing doctors and appointments through a dedicated dashboard. It is optimized for performance and accessibility on all devices.",
+      "Jhotpot is a full-stack B2C parcel management and delivery platform designed to streamline parcel booking, tracking, rider management, and delivery operations through a modern, role-based dashboard system.The system is built with scalability, performance, and real-world logistics workflows in mind, making it suitable for courier services and delivery-based businesses.",
     features: [
       "User registration and role-based access control",
       "Search doctors by specialty and location",
@@ -147,23 +147,23 @@ export const projectsData = [
       "React Router 6",
     ],
     images: [p3_1, p3_2, p3_3, p3_4, p3_5],
-    liveLink: "https://cool-lollipop-ad7e95.netlify.app/",
+    liveLink: "https://jhotpot-client-set.web.app/",
     githubClient:
-      "https://github.com/SDNATH-Git/medical-appointment-application?tab=readme-ov-file",
+      "https://github.com/SDNATH-Git/jhotpot_full_client_set_25",
     githubServer:
-      "https://github.com/SDNATH-Git/medical-appointment-application?tab=readme-ov-file",
+      "https://github.com/SDNATH-Git/jhotpot_full_server_set_25",
     challenges: [
-      "Implementing secure and reliable Stripe payment integration for appointment fees.",
-      "Handling concurrent appointment bookings to avoid double-booking conflicts.",
-      "Developing a scalable notification system for appointment reminders.",
-      "Ensuring compliance with privacy standards for sensitive health data.",
+      "Implementing secure and reliable Stripe payment integration for parcel fees.",
+      "Handling concurrent parcel bookings .",
+      "Developing a scalable notification system for parcel Booking reminders.",
+      "Monitor delivery status & system analytics",
       "Optimizing the app for SEO and fast loading on mobile networks.",
     ],
     improvements: [
-      "Add doctor ratings and patient reviews to build trust and transparency.",
-      "Integrate calendar sync features with Google and iCal.",
-      "Implement AI-based appointment slot recommendations to reduce waiting times.",
-      "Expand language support to cater to non-English speaking users.",
+      "Secure online payments for parcel bookings",
+      "Secure private routes for protected pages",
+      "Role-based access for Admin, Rider, and Customer",
+      "User can track parcel and view payment history",
     ],
     demoVideo: "https://youtu.be/your-demo-video-url",
     launchDate: "2023-09-05",
