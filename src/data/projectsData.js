@@ -16,6 +16,13 @@ import p3_3 from "../assets/project3-3.png";
 import p3_4 from "../assets/project3-4.png";
 import p3_5 from "../assets/project3-5.png";
 
+import p4_1 from "../assets/project4-1.png";
+import p4_2 from "../assets/project4-2.png";
+import p4_3 from "../assets/project4-3.png";
+import p4_4 from "../assets/project4-4.png";
+import p4_5 from "../assets/project4-5.png";
+
+
 export const projectsData = [
   {
     id: "easyhome",
@@ -170,9 +177,9 @@ export const projectsData = [
   },
   {
     id: "RideSharing",
-    title: "🚚 Jhotpot–Parcel Management & Delivery System",
+    title: "🚖 Cholo - Ride Sharing (Team-projects)",
     description:
-      "Jhotpot is a full-stack B2C parcel management and delivery platform designed to streamline parcel booking, tracking, rider management, and delivery operations through a modern, role-based dashboard system.The system is built with scalability, performance, and real-world logistics workflows in mind, making it suitable for courier services and delivery-based businesses.",
+      "Cholo is a real-time ride sharing platform designed to connect riders and drivers efficiently. The project aims to solve common transportation challenges such as finding available rides quickly, tracking drivers in real-time, and managing trips seamlessly. By leveraging modern web technologies like React.js, Node.js, and Socket.io (or Firebase), Cholo provides:Riders with the ability to request rides, view driver locations in real-time, and track their trips from start to finish. Drivers with a dashboard to accept ride requests, manage trips, and monitor trip progress efficiently.A responsive and intuitive interface suitable for desktops, tablets, and mobile devices.",
     features: [
       "User registration and role-based access control",
       "Search doctors by specialty and location",
@@ -189,33 +196,33 @@ export const projectsData = [
       "Optimized performance and SEO",
     ],
     techStack: [
-      "React 18",
+      "Typescript",
       "TailwindCSS 3",
       "Node.js 18",
       "Express 4",
       "MongoDB Atlas",
       "Stripe API",
       "JWT Authentication",
-      "React Router 6",
+      "firebase",
     ],
-    images: [p3_1, p3_2, p3_3, p3_4, p3_5],
-    liveLink: "https://jhotpot-client-set.web.app/",
+    images: [p4_1, p4_4, p4_3, p4_4, p4_5],
+    liveLink: "https://cholo.netlify.app/",
     githubClient:
-      "https://github.com/SDNATH-Git/jhotpot_full_client_set_25",
+      "https://github.com/Utso-Roy/cholo_ride_sharing_-team-/tree/SD?tab=readme-ov-file",
     githubServer:
-      "https://github.com/SDNATH-Git/jhotpot_full_server_set_25",
+      "https://github.com/Utso-Roy/cholo_ride_sharing_website_server_side/tree/SD",
     challenges: [
-      "Implementing secure and reliable Stripe payment integration for parcel fees.",
-      "Handling concurrent parcel bookings .",
-      "Developing a scalable notification system for parcel Booking reminders.",
-      "Monitor delivery status & system analytics",
-      "Optimizing the app for SEO and fast loading on mobile networks.",
+      "Ride Booking System: Request rides and track trip progress in real-time.",
+      "Driver Dashboard: Accept requests, view history, and manage status.",
+      "Live Map Tracking: Real-time GPS tracking of rides and drivers.",
+      "Notifications: Alerts for ride requests, updates, and confirmations.",
+      "Payment Integration (Optional): Secure online payment options.",
     ],
     improvements: [
-      "Secure online payments for parcel bookings",
+      "Secure online payments for rider bookings",
       "Secure private routes for protected pages",
-      "Role-based access for Admin, Rider, and Customer",
-      "User can track parcel and view payment history",
+      "Role-based access for Admin, Rider, and user",
+      "User can track ride and view payment history",
     ],
     demoVideo: "https://youtu.be/your-demo-video-url",
     launchDate: "2023-09-05",
