@@ -285,7 +285,7 @@ const Skills = () => {
                                 key={tab}
                                 onClick={() => setActiveTab(tab)}
                                 className={`
-                  px-5 py-2 rounded-full font-medium transition
+                  px-4 py-2 rounded-full font-medium transition
                   ${activeTab === tab
                                         ? "bg-orange-500 text-black shadow-lg"
                                         : "bg-gray-800 text-white hover:bg-gray-700"
@@ -298,7 +298,7 @@ const Skills = () => {
                     </div>
 
                     {/* ===== ICON GRID ===== */}
-                    <div className="mx-4 md:mx-12 lg:mx-24">
+                    <div className="mx-1 md:mx-12 lg:mx-24">
                         {/* Using responsive margins prevents the layout from breaking on mobile */}
 
                         <div className="flex flex-wrap justify-center items-center gap-6">
