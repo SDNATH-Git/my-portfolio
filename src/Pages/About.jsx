@@ -9,10 +9,10 @@ const About = () => {
     return (
         <div
             id="about"
-            className="text-white bg-gradient-to-r from-gray-900 to-gray-800 mx-5 md:mx-5 lg:mx-10 p-6 md:p-12 rounded-3xl shadow-2xl my-16  hover:border-l-4 hover:border-r-4 hover:border-orange-500
+            className="text-white bg-gradient-to-r from-gray-900 to-gray-800 mx-5 md:mx-5 lg:mx-10 p-6 md:p-12 rounded-3xl shadow-xl my-16  hover:border-l-4 hover:border-r-4 hover:border-orange-500
              transition-all duration-300  "
         >
-            <h2 className="text-4xl text-center font-extrabold mb-8 text-orange-500 flex justify-center gap-2 pb-2">
+            <h2 className="text-4xl text-center font-extrabold mb-2 text-orange-500 flex justify-center gap-2 pb-2">
                 <FaUserTag />
                 About Me
             </h2>
@@ -67,7 +67,7 @@ const About = () => {
                         transition={{ delay: 0.2, duration: 0.6 }}
                     >
                         Hello! I'm{" "}
-                        <span className="font-bold text-orange-500">SD NATH</span>, a passionate MERN
+                        <span className="font-bold text-orange-500">Shuvo Dev Nath</span>, a passionate MERN
                         stack developer. My programming journey started with a curiosity about the
                         web, and since then, I've been crafting dynamic and efficient web apps
                         using JavaScript, React, Node.js, Express, and MongoDB.
