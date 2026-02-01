@@ -166,7 +166,7 @@ import {
     FaGithub,
 } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiTailwindcss, SiMongodb, SiExpress, SiFigma } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiExpress, SiFigma, SiNextdotjs } from "react-icons/si";
 import { motion, useAnimation, LazyMotion, domAnimation } from "framer-motion";
 
 /* ================= SKILL DATA ================= */
@@ -174,10 +174,12 @@ const skillsData = {
     Frontend: [
         { name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, level: 95 },
         { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" />, level: 90 },
+        { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" />, level: 88 },
         { name: "JavaScript", icon: <FaJs className="text-yellow-400" />, level: 85 },
         { name: "React", icon: <FaReact className="text-cyan-400" />, level: 90 },
         { name: "Typescript", icon: <BiLogoTypescript className="text-blue-500" />, level: 90 },
-        { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" />, level: 88 },
+        { name: "Next.js", icon: <SiNextdotjs className="text-white" />, level: 85 },
+
     ],
     Backend: [
         { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, level: 85 },
@@ -296,23 +298,27 @@ const Skills = () => {
                     </div>
 
                     {/* ===== ICON GRID ===== */}
-                    <div className="flex flex-1/6 justify-center text-center gap-6 ">
-                        {getFilteredSkills().map((skill) => (
-                            <motion.div
-                                key={skill.name}
-                                whileHover={{ scale: 1.25, rotate: 10 }}
-                                className="
-                  flex items-center justify-center
-                  text-5xl p-4 rounded-full
-                  bg-gradient-to-r from-gray-900 to-gray-800
-                  shadow-lg hover:shadow-orange-500/50
-                  transition 
+                    <div className="mx-4 md:mx-12 lg:mx-24">
+                        {/* Using responsive margins prevents the layout from breaking on mobile */}
+
+                        <div className="flex flex-wrap justify-center items-center gap-6">
+                            {getFilteredSkills().map((skill) => (
+                                <motion.div
+                                    key={skill.name}
+                                    whileHover={{ scale: 1.25, rotate: 10 }}
+                                    className="
+                    flex items-center justify-center
+                    text-5xl p-4 rounded-full
+                    bg-gradient-to-r from-gray-900 to-gray-800
+                    shadow-lg hover:shadow-orange-500/50
+                    transition 
                 "
-                                title={skill.name}
-                            >
-                                {skill.icon}
-                            </motion.div>
-                        ))}
+                                    title={skill.name}
+                                >
+                                    {skill.icon}
+                                </motion.div>
+                            ))}
+                        </div>
                     </div>
 
                     {/* ===== SCROLLING SKILLS ===== */}
