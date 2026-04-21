@@ -34,7 +34,7 @@ This portfolio site presents my professional profile as a MERN Stack Developer, 
 
 ---
 
-## 📦 Installation & Setup
+## 📦 Installation & Set_up 
 
 1. **Clone the repository**
 
